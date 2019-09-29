@@ -1,61 +1,59 @@
 <!--
 **************************************************
- Whitney Tarkington's Portfolio Site 2019-2020
+ Front-End Projects
 
 **************************************************
 -->
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
-
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+            
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Whitney Tarkington 2019-2020</title>
+    <title>UI Framework</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet"/>
-
-    <!--     Fonts and icons     -->
+            
+    <!-- Fonts and icons     -->
     <link href='https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+            
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
 </head>
 
 <body>
-
-    <nav class="navbar navbar-default navbar-dark navbar-fixed-top" color-on-scroll="200">
-        <div class="container">
-            <div class="navbar-header">
-                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar bar1"></span>
-                    <span class="icon-bar bar2"></span>
-                    <span class="icon-bar bar3"></span>
-                </button>
-                <a href="index.html" class="navbar-brand">
-                    Whitney Tarkington 2019-2020
-                </a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right navbar-uppercase">
-                    <li>
-                        <a href="interactive_code.html">Interactive Code</a>
-                    </li>
-                    <li>
-                        <a href="api_projects.html">API Projects</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/whittark/https-whittark.github.io" class="btn btn-danger btn-fill">Project Repositories</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<!--Nav bar-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a href="index.html" class="navbar-brand"> Whitney Tarkington 2019-2020</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="interactive_code.html">INTERACTIVE CODE<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="api_projects.html">API PROJECTS<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://www.linkedin.com/in/whitney-tarkington-215a136/" target="_blank">CV<span class="sr-only">(current)</span></a>
+                </li>
+                <li>
+                    <a href="https://github.com/whittark/https-whittark.github.io" class="btn btn-danger btn-fill">PROJECT REPOSITORIES</a>
+                </li>
+            </ul>
+          </div>
+        </nav>
 
     <!-- Professional objectives-->
     <div class="section">
@@ -66,169 +64,172 @@
                     <p class="description">The following are examples of Bootstrap and HTML5/CSS4 responsive projects. I found these helpful as I'll need these skills to build and test prototypes for guided interface tours, support bots, and advanced CS Help solutions.</p>
                 </div>
                 <div class="title-area">
-                    <h2>Bootstrap Sites</h2>
+                    <h2 id="h2dk">Bootstrap Sites</h2>
                     <p class="description">Bootstrap libraries provide great elements for constructing a responsive site with relative ease. Here are a few examples of sites I was able to develop for projects using this framework.</p>
                 </div>
                 <div class="title-area">
-                    <h3>Utopia Intergalactic Travel</h3>
+                    <h3 id="h3dk">Utopia Intergalactic Travel</h3>
+                    <p></p>
                     <iframe src="https://whittark.github.io/Utopia-NASA-API/"></iframe>
                 </div>
                 <div class="title-area">
-                    <h3>Smegol's Barter</h3>
+                    <h3 id="h3dk">Smegol's Barter</h3>
                     <iframe src="https://whittark.github.io/Smegol-s-Barter-JS-and-JQuery"></iframe>
                 </div>
                 <div class="title-area">
-                    <h3>RPS Multiplayer</h3>
+                    <h3 id="h3dk">RPS Multiplayer</h3>
                     <iframe src="https://whittark.github.io/RPS-Multiplayer/"></iframe>
                 </div>
                 <div class="title-area">
-                    <h3>Bootstrap Portfolio 1.0</h3>
+                    <h3 id="h3dk">Bootstrap Portfolio 1.0</h3>
                     <iframe src="https://whittark.github.io/Bootstrap-Portfolio/"></iframe>
            		</div>
            		<div class="title-area">
-                    <h2>HTML5 Responsive</h2>
+                    <h2 id="h2dk">HTML5 Responsive</h2>
                     <p class="description">I also developed a non-bootstrap site with HTML5 and CSS4 for instances where Bootstrap may not be supported.</p>
                 </div>
                 <div class="title-area">
-                    <h3>HTML5 Responsive Portfolio</h3>
+                    <h3 id="h3dk">HTML5 Responsive Portfolio</h3>
                     <iframe src="https://whittark.github.io/Responsive-Portfolio/"></iframe>
                 </div>
             </div>
         </div>
            
+    <!-- Footer -->
     <footer class="footer footer-big footer-color-black" data-color="black">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2 col-sm-3">
-                    <div class="info">
-                        <h5 class="title">GIT Hosted</h5>
-                        <nav>
-                            <ul class="left-alignwt">
-                                <li>
-                                    <a href="https://whittark.github.io/Utopia-NASA-API/">NASA Near Earth Objects</a></li>
-                                <li>
-                                    <a href="https://whittark.github.io/Utopia-NASA-API/Upcoming-destination.html">API call to NASA APOD</a>
-                                </li>
-                                <li>
-                                    <a href="https://whittark.github.io/GIPHY-API-PROJECT/">JS/JQ image call</a>
-                                </li>
-                                <li>
-                                    <a href="https://whittark.github.io/trivia-game/">JavaScript/JQuery interactive text</a>
-                                </li>
-                                <li>
-                                    <a href="https://whittark.github.io/RPS-Multiplayer/">Multiplayer with chat</a>
-                                </li>
-                                <li>
-                                    <a href="https://whittark.github.io/tip_calculator/">JavaScript calculator</a>
-                                </li>
-                                <li>
-                                    <a href="https://whittark.github.io/Word-Guess-JS/">Vanilla JS example</a>
-                                </li>
-                                <li>
-                                    <a href="https://whittark.github.io/Bootstrap-Portfolio/">Early bootstrap site</a>
-                                </li>
-                                <li>
-                                    <a href="https://whittark.github.io/Responsive-Portfolio/">HTML5/CSS4 responsive from scratch</a>
-                                </li>
-                            </ul>
-                        </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-3">
+                        <div class="info">
+                            <h5 class="titleh5">GIT Hosted</h5>
+                            <nav>
+                                <ul class="left-alignwt">
+                                    <li>
+                                        <a href="https://whittark.github.io/Utopia-NASA-API/">NASA Near Earth Objects</a></li>
+                                    <li>
+                                        <a href="https://whittark.github.io/Utopia-NASA-API/Upcoming-destination.html">API call to NASA APOD</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://whittark.github.io/GIPHY-API-PROJECT/">JS/JQ image call</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://whittark.github.io/trivia-game/">JavaScript/JQuery interactive text</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://whittark.github.io/RPS-Multiplayer/">Multiplayer with chat</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://whittark.github.io/tip_calculator/">JavaScript calculator</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://whittark.github.io/Word-Guess-JS/">Vanilla JS example</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://whittark.github.io/Bootstrap-Portfolio/">Early bootstrap site</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://whittark.github.io/Responsive-Portfolio/">HTML5/CSS4 responsive from scratch</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1 col-sm-3">
+                        <div class="info">
+                            <h5 class="titleh5"> View Source</h5>
+                             <nav>
+                                <ul class="left-alignwt">
+                                    <li>
+                                        <a href="https://github.com/whittark/Utopia-NASA-API">Utopia NASA API calls (AJAX/JSON/JS/JQ)</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/whittark/GIPHY-API-PROJECT">GIPHY API calls (AJAX/JS/JQ)</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/whittark/Smegol-s-Barter-JS-and-JQuery">Interactive images/arithmatical functions (JS/JQ)</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/whittark/trivia-game">Interactive text (JS/JQ)</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/whittark/RPS-Multiplayer">Multiplayer with chat</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://whittark.github.io/tip_calculator/">Calculator (Vanilla JS)</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://whittark.github.io/Word-Guess-JS/">Interactive word game (JS/JQ)</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/whittark/Bootstrap-Portfolio">Early bootstrap site</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/whittark/Responsive-Portfolio">HTML5/CSS4 responsive site</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div class="info">
+                            <h5 class="titleh5">Latest News</h5>
+                            <nav>
+                                <ul class="left-alignwt">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i> <b>LavaCon </b> Going to LavaCon in October
+                                            <hr class="hr-small">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i><b>athenahealth HQ </b>Excited for the athena trip in November!
+                                            <hr class="hr-small">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i><b>NODEJS IS ON! </b>Studying Node now; wish me luck!
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-md-offset-1 col-sm-3">
+                        <div class="info">
+                            <h5 class="titleh5">Follow me on</h5>
+                            <nav>
+                                <ul class="left-alignwt">
+                                    <li>
+                                        <a href="@tarkina3" class="btn btn-social btn-twitter btn-simple">
+                                            <i class="fa fa-twitter"></i> Twitter - @tarkina3
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/whitney-tarkington-215a136/" class="btn btn-social btn-reddit btn-simple">
+                                            <i class="fa fa-linkedin-square"></i> Linkedin
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-md-offset-1 col-sm-3">
-                    <div class="info">
-                        <h5 class="title"> View Source</h5>
-                         <nav>
-                            <ul>
-                                <li>
-                                    <a href="https://github.com/whittark/Utopia-NASA-API">Utopia NASA API calls (AJAX/JSON/JS/JQ)</a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/whittark/GIPHY-API-PROJECT">GIPHY API calls (AJAX/JS/JQ)</a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/whittark/Smegol-s-Barter-JS-and-JQuery">Interactive images/arithmatical functions (JS/JQ)</a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/whittark/trivia-game">Interactive text (JS/JQ)</a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/whittark/RPS-Multiplayer">Multiplayer with chat</a>
-                                </li>
-                                <li>
-                                    <a href="https://whittark.github.io/tip_calculator/">Calculator (Vanilla JS)</a>
-                                </li>
-                                <li>
-                                    <a href="https://whittark.github.io/Word-Guess-JS/">Interactive word game (JS/JQ)</a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/whittark/Bootstrap-Portfolio">Early bootstrap site</a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/whittark/Responsive-Portfolio">HTML5/CSS4 responsive site</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3">
-                    <div class="info">
-                        <h5 class="title">Latest News</h5>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i> <b>LavaCon </b> Going to LavaCon in October
-                                        <hr class="hr-small">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i><b>athenahealth HQ </b>Excited for the athena trip in November!
-                                        <hr class="hr-small">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i><b>NODEJS IS ON! </b>Studying Node now; wish me luck!
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-md-2 col-md-offset-1 col-sm-3">
-                    <div class="info">
-                        <h5 class="title">Follow me on</h5>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="@tarkina3" class="btn btn-social btn-twitter btn-simple">
-                                        <i class="fa fa-twitter"></i> Twitter - @tarkina3
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/whitney-tarkington-215a136/" class="btn btn-social btn-reddit btn-simple">
-                                        <i class="fa fa-linkedin-square"></i> Linkedin
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+                
+                
+                <div class="copyright">
+                     © <script> document.write(new Date().getFullYear()) </script> Whitney Tarkington
                 </div>
             </div>
-            <hr>
-            <div class="copyright">
-                 © <script> document.write(new Date().getFullYear()) </script> Whitney Tarkington
-            </div>
-        </div>
-    </footer>
-
-</body>
-
-<!--   Embedded bootstrap, jquery min, and parallax min    -->
-<script src="assets/js/bootstrap.js" type="text/javascript"></script>
-<script src="assets/js/jquery.min.js" type="text/javascript"></script>
-<script src="assets/js/parallax.js"></script>
-
-
-</html>
+        </footer>
+    
+    </body>
+    
+    <!--   Embedded bootstrap, jquery min, and parallax min    -->
+    <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/parallax.js"></script>
+    
+    
+    </html>
