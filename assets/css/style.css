@@ -14,6 +14,8 @@ body, html
     font-family: "Roboto","Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #b9b9b9;
     background-color: #333333;
+    border-radius: 0 !important;
+    margin-bottom: 0px !important;
 }
 .navbar-brand {
     margin: 10px 0px;
